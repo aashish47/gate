@@ -1,59 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GATE Practice — Home</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-</head>
-<body class="home-page">
-  <header class="topbar home-topbar">
-    <div class="brand">
-      <span class="logo">GATE Practice</span>
-    </div>
-    <div class="topbar-meta">
-      <span class="muted">Personal exam practice</span>
-    </div>
-  </header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>GATE Practice — Home</title>
+		<link
+			rel="stylesheet"
+			href="css/style.css"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="home-page">
+		<header class="topbar home-topbar">
+			<div class="brand">
+				<span class="logo">GATE Practice</span>
+			</div>
+			<div class="topbar-meta">
+				<span class="muted">Personal exam practice</span>
+			</div>
+		</header>
 
-  <main class="home">
-    <section class="hero">
-      <p class="eyebrow">Exam practice platform</p>
-      <h1>Choose a paper and start practicing</h1>
-      <p class="hero-desc">
-        Each paper can be taken in <strong>Exam mode</strong> (timed, no hints) or <strong>Practice mode</strong> (instant feedback). Add more papers by dropping a dataset folder.
-      </p>
-    </section>
+		<main class="home">
+			<section class="hero">
+				<p class="eyebrow">Exam practice platform</p>
+				<h1>Choose a paper and start practicing</h1>
+				<p class="hero-desc">
+					Each paper can be taken in
+					<strong>Exam mode</strong> (timed, no hints) or
+					<strong>Practice mode</strong> (check answers when you're
+					ready). Add more papers by dropping a dataset folder.
+				</p>
+			</section>
 
-    <section class="stats-bar" id="stats-bar"></section>
+			<section
+				class="stats-bar"
+				id="stats-bar"
+			></section>
 
-    <section class="section-head">
-      <h2>Available exams</h2>
-      <p class="muted">Select a paper to begin</p>
-    </section>
+			<section class="section-head">
+				<h2>Available exams</h2>
+				<p class="muted">Select a paper to begin</p>
+			</section>
 
-    <section id="exam-list" class="exam-grid">
-      <div class="loading">Loading exams…</div>
-    </section>
+			<section
+				id="exam-list"
+				class="exam-grid"
+			>
+				<div class="loading">Loading exams…</div>
+			</section>
 
-    <section class="how-to">
-      <h3>Add another exam</h3>
-      <ol>
-        <li>Create a folder under <code>exams/your_exam_id/</code></li>
-        <li>Put <code>questions.json</code>, <code>answers.json</code>, and optional <code>assets/</code> inside</li>
-        <li>Register it in <code>exams/catalog.json</code></li>
-        <li>Refresh this page</li>
-      </ol>
-    </section>
-  </main>
+			<section class="how-to">
+				<h3>Add another exam</h3>
+				<ol>
+					<li>
+						Create a folder under <code>exams/your_exam_id/</code>
+					</li>
+					<li>
+						Put <code>questions.json</code>,
+						<code>answers.json</code>, and optional
+						<code>assets/</code> inside
+					</li>
+					<li>Register it in <code>exams/catalog.json</code></li>
+					<li>Refresh this page</li>
+				</ol>
+			</section>
+		</main>
 
-  <footer class="home-footer">
-    <span>GATE Practice · Personal use</span>
-  </footer>
+		<footer class="home-footer">
+			<span>GATE Practice · Personal use</span>
+		</footer>
 
-  <script src="js/home.js"></script>
-</body>
+		<script src="js/home.js"></script>
+	</body>
 </html>

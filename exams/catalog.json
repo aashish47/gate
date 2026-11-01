@@ -10,6 +10,17 @@
       "total_marks": 100,
       "duration_minutes": 180,
       "folder": "cs1_2026"
+    },
+    {
+      "id": "cs2_2026",
+      "title": "GATE 2026 CS2",
+      "subtitle": "Computer Science & Information Technology (CS2)",
+      "year": 2026,
+      "organizer": "IIT Guwahati",
+      "total_questions": 65,
+      "total_marks": 100,
+      "duration_minutes": 180,
+      "folder": "cs2_2026"
     }
   ]
 }

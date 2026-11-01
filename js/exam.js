@@ -1,4 +1,4 @@
-/* Multi-exam runner — supports exam mode (timed) and practice mode (instant feedback) */
+/* Multi-exam runner — supports timed exam mode and answer-checked practice mode */
 
 const state = {
   examId: null,
@@ -8,6 +8,7 @@ const state = {
   questions: [],
   answers: {},
   userAnswers: {},
+  checkedAnswers: new Set(),
   marked: new Set(),
   visited: new Set(),
   current: 0,
@@ -71,6 +72,7 @@ async function init() {
     try {
       const p = JSON.parse(saved);
       state.userAnswers = p.userAnswers || {};
+      state.checkedAnswers = new Set(p.checkedAnswers || []);
       state.marked = new Set(p.marked || []);
       state.visited = new Set(p.visited || []);
       state.current = p.current || 0;
@@ -90,11 +92,21 @@ function storageKey() {
   return `gate_progress_${state.examId}_${state.mode}`;
 }
 
+function hasUserAnswer(qid) {
+  const answer = state.userAnswers[qid];
+  return (
+    answer !== undefined &&
+    answer !== "" &&
+    !(Array.isArray(answer) && answer.length === 0)
+  );
+}
+
 function persist() {
   localStorage.setItem(
     storageKey(),
     JSON.stringify({
       userAnswers: state.userAnswers,
+      checkedAnswers: [...state.checkedAnswers],
       marked: [...state.marked],
       visited: [...state.visited],
       current: state.current,
@@ -221,7 +233,9 @@ function renderQuestion() {
   optsEl.innerHTML = "";
   optsEl.classList.remove("image-grid");
 
-  const showFeedback = state.mode === "practice" || state.reviewMode;
+  const showFeedback =
+    state.reviewMode ||
+    (state.mode === "practice" && state.checkedAnswers.has(qid));
 
   if (q.type === "NAT") {
     const input = document.createElement("input");
@@ -232,9 +246,12 @@ function renderQuestion() {
     input.disabled = state.reviewMode;
     input.addEventListener("input", (e) => {
       state.userAnswers[qid] = e.target.value.trim();
+      state.checkedAnswers.delete(qid);
+      optsEl.querySelector(".practice-feedback")?.remove();
+      document.getElementById("btn-check-answer").disabled =
+        !hasUserAnswer(qid);
       updatePalette();
       persist();
-      if (state.mode === "practice") renderQuestion(); // refresh feedback
     });
     optsEl.appendChild(input);
   } else {
@@ -252,16 +269,10 @@ function renderQuestion() {
       const checked = isMSQ ? userAns.includes(key) : userAns === key;
       if (checked) div.classList.add("selected");
 
-      // Highlight correctness only after the user has answered (practice)
-      // or in full review mode after submit
       if (showFeedback) {
         const correct = state.answers[qid]?.correct || [];
-        const hasUserAnswer =
-          state.userAnswers[qid] !== undefined &&
-          state.userAnswers[qid] !== "" &&
-          !(Array.isArray(state.userAnswers[qid]) && state.userAnswers[qid].length === 0);
 
-        if (state.reviewMode || hasUserAnswer) {
+        if (state.reviewMode || hasUserAnswer(qid)) {
           if (correct.includes(key)) div.classList.add("correct");
           else if (checked) div.classList.add("wrong");
         }
@@ -286,6 +297,7 @@ function renderQuestion() {
         } else {
           state.userAnswers[qid] = key;
         }
+        state.checkedAnswers.delete(qid);
         renderQuestion();
         updatePalette();
         persist();
@@ -317,16 +329,14 @@ function renderQuestion() {
     });
   }
 
-  // Instant / review feedback
+  const checkAnswerButton = document.getElementById("btn-check-answer");
+  checkAnswerButton.hidden = state.mode !== "practice" || state.reviewMode;
+  checkAnswerButton.disabled = !hasUserAnswer(qid);
+
   if (showFeedback) {
     const result = evaluateOne(qid);
-    // Only show feedback text if user has attempted (or full review)
-    const attempted =
-      state.userAnswers[qid] !== undefined &&
-      state.userAnswers[qid] !== "" &&
-      !(Array.isArray(state.userAnswers[qid]) && state.userAnswers[qid].length === 0);
 
-    if (state.reviewMode || attempted) {
+    if (state.reviewMode || hasUserAnswer(qid)) {
       const fb = document.createElement("div");
       fb.className =
         (state.mode === "practice" && !state.reviewMode
@@ -519,7 +529,9 @@ function bindEvents() {
   document.getElementById("btn-prev").addEventListener("click", prev);
   document.getElementById("btn-next").addEventListener("click", next);
   document.getElementById("btn-clear").addEventListener("click", () => {
-    delete state.userAnswers[String(state.questions[state.current].id)];
+    const qid = String(state.questions[state.current].id);
+    delete state.userAnswers[qid];
+    state.checkedAnswers.delete(qid);
     renderQuestion();
     updatePalette();
     persist();
@@ -538,6 +550,12 @@ function bindEvents() {
         : "Submit the exam? You will not be able to change answers.";
     if (confirm(msg)) submitExam();
   });
+  document.getElementById("btn-check-answer").addEventListener("click", () => {
+    const qid = String(state.questions[state.current].id);
+    if (!hasUserAnswer(qid)) return;
+    state.checkedAnswers.add(qid);
+    renderQuestion();
+  });
   document.getElementById("btn-review").addEventListener("click", () => {
     document.getElementById("results-modal").classList.add("hidden");
     state.current = 0;
@@ -548,7 +566,12 @@ function bindEvents() {
     location.reload();
   });
   document.getElementById("btn-palette").addEventListener("click", () => {
-    document.getElementById("palette-panel").classList.toggle("open");
+    const palette = document.getElementById("palette-panel");
+    if (window.matchMedia("(max-width: 900px)").matches) {
+      palette.classList.toggle("open");
+    } else {
+      document.querySelector(".layout").classList.toggle("palette-closed");
+    }
   });
   document.addEventListener("keydown", (e) => {
     if (e.target.tagName === "INPUT") return;
