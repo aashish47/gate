@@ -1,0 +1,15 @@
+{
+  "exams": [
+    {
+      "id": "cs1_2026",
+      "title": "GATE 2026 CS1",
+      "subtitle": "Computer Science & Information Technology",
+      "year": 2026,
+      "organizer": "IIT Guwahati",
+      "total_questions": 65,
+      "total_marks": 100,
+      "duration_minutes": 180,
+      "folder": "cs1_2026"
+    }
+  ]
+}

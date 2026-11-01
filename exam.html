@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exam — GATE Practice</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">
+        <a href="index.html" class="back">← Home</a>
+        <span class="logo" id="exam-title">Exam</span><span id="mode-badge" class="mode-badge"></span>
+      </div>
+      <div class="status">
+        <span id="timer">03:00:00</span>
+        <span id="progress-text">0 / 0</span>
+      </div>
+      <div class="actions">
+        <button id="btn-palette" class="btn ghost">Palette</button>
+        <button id="btn-submit" class="btn primary">Submit</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="question-panel">
+        <div class="q-meta">
+          <span id="q-number" class="badge">Q.1</span>
+          <span id="q-type" class="badge type">MCQ</span>
+          <span id="q-marks" class="badge marks">1 Mark</span>
+          <span id="q-section" class="badge section">GA</span>
+        </div>
+
+        <div id="q-text" class="q-text">Loading…</div>
+        <div id="q-tables" class="q-tables"></div>
+        <div id="q-assets" class="q-assets"></div>
+        <div id="q-options" class="q-options"></div>
+
+        <div class="nav-row">
+          <button id="btn-prev" class="btn">← Previous</button>
+          <button id="btn-clear" class="btn ghost">Clear</button>
+          <button id="btn-mark" class="btn ghost">Mark for Review</button>
+          <button id="btn-next" class="btn primary">Save & Next →</button>
+        </div>
+      </section>
+
+      <aside class="palette-panel" id="palette-panel">
+        <h3>Question Palette</h3>
+        <div class="legend">
+          <span class="leg answered">Answered</span>
+          <span class="leg marked">Marked</span>
+          <span class="leg current">Current</span>
+          <span class="leg not-visited">Not Visited</span>
+        </div>
+        <div id="palette" class="palette-grid"></div>
+        <div class="summary">
+          <div>Answered: <strong id="sum-answered">0</strong></div>
+          <div>Marked: <strong id="sum-marked">0</strong></div>
+          <div>Not Visited: <strong id="sum-not">0</strong></div>
+        </div>
+      </aside>
+    </main>
+
+    <div id="results-modal" class="modal hidden">
+      <div class="modal-card">
+        <h2>Exam Summary</h2>
+        <div id="results-body"></div>
+        <div class="modal-actions">
+          <button id="btn-review" class="btn">Review Answers</button>
+          <button id="btn-restart" class="btn primary">Restart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/exam.js"></script>
+</body>
+</html>
