@@ -76,6 +76,17 @@
 			"total_marks": 100,
 			"duration_minutes": 180,
 			"folder": "2023_cs"
+		},
+		{
+			"id": "2022_cs",
+			"title": "GATE 2022 CS",
+			"subtitle": "Computer Science & Information Technology",
+			"year": 2022,
+			"organizer": "IIT Kharagpur",
+			"total_questions": 65,
+			"total_marks": 100,
+			"duration_minutes": 180,
+			"folder": "2022_cs"
 		}
 	]
 }
