@@ -21,6 +21,28 @@
       "total_marks": 100,
       "duration_minutes": 180,
       "folder": "cs2_2026"
+    },
+    {
+      "id": "cs1_2025",
+      "title": "GATE 2025 CS1",
+      "subtitle": "Computer Science & Information Technology",
+      "year": 2025,
+      "organizer": "IIT Roorkee",
+      "total_questions": 65,
+      "total_marks": 100,
+      "duration_minutes": 180,
+      "folder": "cs1_2025"
+    },
+    {
+      "id": "cs2_2025",
+      "title": "GATE 2025 CS2",
+      "subtitle": "Computer Science & Information Technology (CS2)",
+      "year": 2025,
+      "organizer": "IIT Roorkee",
+      "total_questions": 65,
+      "total_marks": 100,
+      "duration_minutes": 180,
+      "folder": "cs2_2025"
     }
   ]
 }

@@ -1,0 +1,606 @@
+{
+  "metadata": {
+    "exam_name": "Graduate Aptitude Test in Engineering (GATE) 2025",
+    "paper_code": "CS2",
+    "session": 2,
+    "version": "1.0",
+    "description": "Answer key and marking scheme transcribed from the official GATE 2025 CS2 answer-key PDF.",
+    "marking_scheme": {
+      "MCQ": {
+        "correct": "full marks",
+        "incorrect": "negative_marks (1/3 of question marks)",
+        "unattempted": 0
+      },
+      "MSQ": {
+        "correct": "full marks only if all correct options selected and no incorrect",
+        "partial": "not awarded",
+        "incorrect": 0,
+        "unattempted": 0
+      },
+      "NAT": {
+        "correct": "full marks (within accepted range)",
+        "incorrect": 0,
+        "unattempted": 0
+      }
+    },
+    "source_pdf": "../../2025_CS2_Keys.pdf"
+  },
+  "answers": {
+    "1": {
+      "correct": [
+        "C"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "2": {
+      "correct": [
+        "C"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "3": {
+      "correct": [
+        "A"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "4": {
+      "correct": [
+        "A"
+      ],
+      "negative_marks": 0.33,
+      "assets": [
+        "assets/q04_option_a.png",
+        "assets/q04_option_b.png",
+        "assets/q04_option_c.png",
+        "assets/q04_option_d.png"
+      ],
+      "assets_for_options": true,
+      "explanation": null
+    },
+    "5": {
+      "correct": [
+        "B"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "6": {
+      "correct": [
+        "B"
+      ],
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null
+    },
+    "7": {
+      "correct": [
+        "B"
+      ],
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null
+    },
+    "8": {
+      "correct": [
+        "A"
+      ],
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null
+    },
+    "9": {
+      "correct": [
+        "D"
+      ],
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null
+    },
+    "10": {
+      "correct": [
+        "C"
+      ],
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null
+    },
+    "11": {
+      "correct": [
+        "C"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "12": {
+      "correct": [
+        "A"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "13": {
+      "correct": [
+        "B"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "14": {
+      "correct": [
+        "A"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "15": {
+      "correct": [
+        "A"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "16": {
+      "correct": [
+        "B"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "17": {
+      "correct": [
+        "A"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "18": {
+      "correct": [
+        "D"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "19": {
+      "correct": [
+        "D"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "20": {
+      "correct": [
+        "A"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "21": {
+      "correct": [
+        "C"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "22": {
+      "correct": [
+        "C"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "23": {
+      "correct": [
+        "D"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "24": {
+      "correct": [
+        "A"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "25": {
+      "correct": [
+        "D"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "26": {
+      "correct": [
+        "D"
+      ],
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null
+    },
+    "27": {
+      "correct": [
+        "B",
+        "C"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "28": {
+      "correct": [
+        "D"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "29": {
+      "correct": [
+        "B",
+        "C",
+        "D"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "30": {
+      "correct": [
+        "B",
+        "C"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "31": {
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "32": {
+      "correct": "13",
+      "range": {
+        "min": 13.0,
+        "max": 13.0
+      },
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "33": {
+      "correct": "21",
+      "range": {
+        "min": 21.0,
+        "max": 21.0
+      },
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "34": {
+      "correct": "250",
+      "range": {
+        "min": 250.0,
+        "max": 250.0
+      },
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "35": {
+      "correct": "4",
+      "range": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "36": {
+      "correct": [
+        "A"
+      ],
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null
+    },
+    "37": {
+      "correct": [
+        "C"
+      ],
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null
+    },
+    "38": {
+      "correct": [
+        "A"
+      ],
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null
+    },
+    "39": {
+      "correct": [
+        "A"
+      ],
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null
+    },
+    "40": {
+      "correct": [
+        "C"
+      ],
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null
+    },
+    "41": {
+      "correct": [
+        "D"
+      ],
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null
+    },
+    "42": {
+      "correct": [
+        "B",
+        "C"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "43": {
+      "correct": [
+        "A",
+        "D"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "44": {
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "45": {
+      "correct": [
+        "A"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "46": {
+      "correct": [
+        "C",
+        "D"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "47": {
+      "correct": [
+        "D"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "48": {
+      "correct": [
+        "C",
+        "D"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "49": {
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "50": {
+      "correct": [
+        "B",
+        "C",
+        "D"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "51": {
+      "correct": [
+        "C",
+        "D"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "52": {
+      "correct": [
+        "A",
+        "C"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "53": {
+      "correct": [
+        "B"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "54": {
+      "correct": [
+        "A",
+        "C",
+        "D"
+      ],
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "55": {
+      "correct": "4.0",
+      "range": {
+        "min": 4.0,
+        "max": 4.0
+      },
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "56": {
+      "correct": "260.20 to 261.20",
+      "range": {
+        "min": 260.2,
+        "max": 261.2
+      },
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "57": {
+      "correct": "33",
+      "range": {
+        "min": 33.0,
+        "max": 33.0
+      },
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "58": {
+      "correct": "11",
+      "range": {
+        "min": 11.0,
+        "max": 11.0
+      },
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "59": {
+      "correct": "6",
+      "range": {
+        "min": 6.0,
+        "max": 6.0
+      },
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "60": {
+      "correct": "6",
+      "range": {
+        "min": 6.0,
+        "max": 6.0
+      },
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "61": {
+      "correct": "3.0",
+      "range": {
+        "min": 3.0,
+        "max": 3.0
+      },
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "62": {
+      "correct": "111",
+      "range": {
+        "min": 111.0,
+        "max": 111.0
+      },
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "63": {
+      "correct": "46",
+      "range": {
+        "min": 46.0,
+        "max": 46.0
+      },
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "64": {
+      "correct": "0.5",
+      "range": {
+        "min": 0.5,
+        "max": 0.5
+      },
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    },
+    "65": {
+      "correct": "0.70 to 0.80",
+      "range": {
+        "min": 0.7,
+        "max": 0.8
+      },
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null
+    }
+  }
+}

@@ -232,6 +232,13 @@ function renderQuestion() {
   const optsEl = document.getElementById("q-options");
   optsEl.innerHTML = "";
   optsEl.classList.remove("image-grid");
+  const ansMeta = state.answers[qid] || {};
+  const answerAssets = ansMeta.assets || [];
+  const optionCount = Object.keys(q.options || {}).length;
+  const assetsMatchOptions =
+    q.type !== "NAT" &&
+    ansMeta.assets_for_options === true &&
+    answerAssets.length === optionCount;
 
   const showFeedback =
     state.reviewMode ||
@@ -261,9 +268,11 @@ function renderQuestion() {
     const hasImageOpts = entries.some(
       ([, v]) => v && typeof v === "object" && v.type === "image"
     );
-    if (hasImageOpts) optsEl.classList.add("image-grid");
+    if (hasImageOpts || assetsMatchOptions) {
+      optsEl.classList.add("image-grid");
+    }
 
-    entries.forEach(([key, val]) => {
+    entries.forEach(([key, val], index) => {
       const div = document.createElement("label");
       div.className = "option";
       const checked = isMSQ ? userAns.includes(key) : userAns === key;
@@ -324,6 +333,16 @@ function renderQuestion() {
         content.innerHTML = formatText(textVal.replace(/\\n/g, "\n"));
       }
 
+      if (assetsMatchOptions) {
+        div.classList.add("has-image");
+        const img = document.createElement("img");
+        img.src = assetUrl(answerAssets[index]);
+        img.alt = `Option ${key} for Q${q.id}`;
+        img.className = "option-image";
+        img.loading = "lazy";
+        content.appendChild(img);
+      }
+
       div.append(input, label, content);
       optsEl.appendChild(div);
     });
@@ -346,26 +365,23 @@ function renderQuestion() {
       optsEl.appendChild(fb);
     }
 
-    if (state.reviewMode) {
-      const ansMeta = state.answers[qid] || {};
-      if (ansMeta.explanation) {
-        const exp = document.createElement("div");
-        exp.className = "review-explanation";
-        exp.innerHTML =
-          "<strong>Explanation:</strong> " + formatText(ansMeta.explanation);
-        optsEl.appendChild(exp);
-      }
-      if (ansMeta.assets && ansMeta.assets.length) {
-        const box = document.createElement("div");
-        box.className = "q-assets";
-        ansMeta.assets.forEach((src) => {
-          const img = document.createElement("img");
-          img.src = assetUrl(src);
-          img.alt = `Solution for Q${q.id}`;
-          box.appendChild(img);
-        });
-        optsEl.appendChild(box);
-      }
+    if (state.reviewMode && ansMeta.explanation) {
+      const exp = document.createElement("div");
+      exp.className = "review-explanation";
+      exp.innerHTML =
+        "<strong>Explanation:</strong> " + formatText(ansMeta.explanation);
+      optsEl.appendChild(exp);
+    }
+    if (ansMeta.assets && ansMeta.assets.length && !assetsMatchOptions) {
+      const box = document.createElement("div");
+      box.className = "q-assets";
+      ansMeta.assets.forEach((src) => {
+        const img = document.createElement("img");
+        img.src = assetUrl(src);
+        img.alt = `Solution for Q${q.id}`;
+        box.appendChild(img);
+      });
+      optsEl.appendChild(box);
     }
   }
 

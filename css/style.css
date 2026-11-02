@@ -455,7 +455,6 @@ a { color: inherit; text-decoration: none; }
     z-index: 40;
   }
   .palette-panel.open { transform: translateX(0); }
-  .q-options.image-grid { grid-template-columns: 1fr; }
 }
 
 @media (min-width: 901px) {
