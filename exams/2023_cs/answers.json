@@ -1,0 +1,616 @@
+{
+  "metadata": {
+    "exam_name": "GATE 2023",
+    "paper_code": "CS",
+    "paper_title": "Computer Science & Information Technology (CS)",
+    "organizing_institute": "IIT Kanpur",
+    "session": 1,
+    "version": "1.0",
+    "description": "Official answer key. Q2=MTA, Q27 has alternate, Q30 dual NAT ranges.",
+    "answer_key_pdf": "../../2023_CS_ANS_GATE2023.pdf"
+  },
+  "answers": {
+    "1": {
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "B"
+      ]
+    },
+    "2": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "marks_to_all": true
+    },
+    "3": {
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "A"
+      ]
+    },
+    "4": {
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "A"
+      ]
+    },
+    "5": {
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "C"
+      ]
+    },
+    "6": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "D"
+      ]
+    },
+    "7": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "C"
+      ]
+    },
+    "8": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "D"
+      ]
+    },
+    "9": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "B"
+      ]
+    },
+    "10": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "A"
+      ]
+    },
+    "11": {
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "B"
+      ]
+    },
+    "12": {
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "B"
+      ]
+    },
+    "13": {
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "D"
+      ]
+    },
+    "14": {
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "C"
+      ]
+    },
+    "15": {
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "A"
+      ]
+    },
+    "16": {
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "A"
+      ]
+    },
+    "17": {
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "B"
+      ]
+    },
+    "18": {
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "B"
+      ]
+    },
+    "19": {
+      "negative_marks": 0.33,
+      "assets": [
+        "assets/q19_option_a.png",
+        "assets/q19_option_b.png",
+        "assets/q19_option_c.png",
+        "assets/q19_option_d.png"
+      ],
+      "explanation": null,
+      "correct": [
+        "C"
+      ],
+      "assets_for_options": true
+    },
+    "20": {
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "C"
+      ]
+    },
+    "21": {
+      "negative_marks": 0.33,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "B"
+      ]
+    },
+    "22": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "23": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "C",
+        "D"
+      ]
+    },
+    "24": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    "25": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "A",
+        "C"
+      ]
+    },
+    "26": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "B",
+        "C"
+      ]
+    },
+    "27": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "A",
+        "C",
+        "D"
+      ],
+      "alternate_correct": [
+        "C",
+        "D"
+      ]
+    },
+    "28": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "B",
+        "D"
+      ]
+    },
+    "29": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "A",
+        "C"
+      ]
+    },
+    "30": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": "2 to 2 OR 4 to 4",
+      "ranges": [
+        {
+          "min": 2.0,
+          "max": 2.0
+        },
+        {
+          "min": 4.0,
+          "max": 4.0
+        }
+      ],
+      "range": {
+        "min": 2.0,
+        "max": 2.0
+      }
+    },
+    "31": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": "0.0",
+      "range": {
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    "32": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": "110.0",
+      "range": {
+        "min": 110.0,
+        "max": 110.0
+      }
+    },
+    "33": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": "2040.0",
+      "range": {
+        "min": 2040.0,
+        "max": 2040.0
+      }
+    },
+    "34": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": "10.2",
+      "range": {
+        "min": 10.2,
+        "max": 10.2
+      }
+    },
+    "35": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": "7.0",
+      "range": {
+        "min": 7.0,
+        "max": 7.0
+      }
+    },
+    "36": {
+      "negative_marks": 0.67,
+      "assets": [
+        "assets/q36_option_a.png",
+        "assets/q36_option_b.png",
+        "assets/q36_option_c.png",
+        "assets/q36_option_d.png"
+      ],
+      "explanation": null,
+      "correct": [
+        "A"
+      ],
+      "assets_for_options": true
+    },
+    "37": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "D"
+      ]
+    },
+    "38": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "C"
+      ]
+    },
+    "39": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "B"
+      ]
+    },
+    "40": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "A"
+      ]
+    },
+    "41": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "B"
+      ]
+    },
+    "42": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "C"
+      ]
+    },
+    "43": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "A"
+      ]
+    },
+    "44": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "C"
+      ]
+    },
+    "45": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "C"
+      ]
+    },
+    "46": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "B"
+      ]
+    },
+    "47": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "C"
+      ]
+    },
+    "48": {
+      "negative_marks": 0.67,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "D"
+      ]
+    },
+    "49": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "50": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "51": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "A",
+        "D"
+      ]
+    },
+    "52": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "C",
+        "D"
+      ]
+    },
+    "53": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "C",
+        "D"
+      ]
+    },
+    "54": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "A",
+        "D"
+      ]
+    },
+    "55": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": [
+        "A",
+        "B"
+      ]
+    },
+    "56": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": "5040.0",
+      "range": {
+        "min": 5040.0,
+        "max": 5040.0
+      }
+    },
+    "57": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": "4096.0",
+      "range": {
+        "min": 4096.0,
+        "max": 4096.0
+      }
+    },
+    "58": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": "5.0",
+      "range": {
+        "min": 5.0,
+        "max": 5.0
+      }
+    },
+    "59": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": "8.0",
+      "range": {
+        "min": 8.0,
+        "max": 8.0
+      }
+    },
+    "60": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": "2.374 to 2.376",
+      "range": {
+        "min": 2.374,
+        "max": 2.376
+      }
+    },
+    "61": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": "2.0",
+      "range": {
+        "min": 2.0,
+        "max": 2.0
+      }
+    },
+    "62": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": "6.0",
+      "range": {
+        "min": 6.0,
+        "max": 6.0
+      }
+    },
+    "63": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": "4.0",
+      "range": {
+        "min": 4.0,
+        "max": 4.0
+      }
+    },
+    "64": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": "19.0",
+      "range": {
+        "min": 19.0,
+        "max": 19.0
+      }
+    },
+    "65": {
+      "negative_marks": 0,
+      "assets": [],
+      "explanation": null,
+      "correct": "3.0",
+      "range": {
+        "min": 3.0,
+        "max": 3.0
+      }
+    }
+  }
+}

@@ -1,48 +1,81 @@
 {
-  "exams": [
-    {
-      "id": "cs1_2026",
-      "title": "GATE 2026 CS1",
-      "subtitle": "Computer Science & Information Technology",
-      "year": 2026,
-      "organizer": "IIT Guwahati",
-      "total_questions": 65,
-      "total_marks": 100,
-      "duration_minutes": 180,
-      "folder": "cs1_2026"
-    },
-    {
-      "id": "cs2_2026",
-      "title": "GATE 2026 CS2",
-      "subtitle": "Computer Science & Information Technology (CS2)",
-      "year": 2026,
-      "organizer": "IIT Guwahati",
-      "total_questions": 65,
-      "total_marks": 100,
-      "duration_minutes": 180,
-      "folder": "cs2_2026"
-    },
-    {
-      "id": "cs1_2025",
-      "title": "GATE 2025 CS1",
-      "subtitle": "Computer Science & Information Technology",
-      "year": 2025,
-      "organizer": "IIT Roorkee",
-      "total_questions": 65,
-      "total_marks": 100,
-      "duration_minutes": 180,
-      "folder": "cs1_2025"
-    },
-    {
-      "id": "cs2_2025",
-      "title": "GATE 2025 CS2",
-      "subtitle": "Computer Science & Information Technology (CS2)",
-      "year": 2025,
-      "organizer": "IIT Roorkee",
-      "total_questions": 65,
-      "total_marks": 100,
-      "duration_minutes": 180,
-      "folder": "cs2_2025"
-    }
-  ]
+	"exams": [
+		{
+			"id": "2026_cs1",
+			"title": "GATE 2026 CS1",
+			"subtitle": "Computer Science & Information Technology",
+			"year": 2026,
+			"organizer": "IIT Guwahati",
+			"total_questions": 65,
+			"total_marks": 100,
+			"duration_minutes": 180,
+			"folder": "2026_cs1"
+		},
+		{
+			"id": "2026_cs2",
+			"title": "GATE 2026 CS2",
+			"subtitle": "Computer Science & Information Technology (CS2)",
+			"year": 2026,
+			"organizer": "IIT Guwahati",
+			"total_questions": 65,
+			"total_marks": 100,
+			"duration_minutes": 180,
+			"folder": "2026_cs2"
+		},
+		{
+			"id": "2025_cs1",
+			"title": "GATE 2025 CS1",
+			"subtitle": "Computer Science & Information Technology",
+			"year": 2025,
+			"organizer": "IIT Roorkee",
+			"total_questions": 65,
+			"total_marks": 100,
+			"duration_minutes": 180,
+			"folder": "2025_cs1"
+		},
+		{
+			"id": "2025_cs2",
+			"title": "GATE 2025 CS2",
+			"subtitle": "Computer Science & Information Technology (CS2)",
+			"year": 2025,
+			"organizer": "IIT Roorkee",
+			"total_questions": 65,
+			"total_marks": 100,
+			"duration_minutes": 180,
+			"folder": "2025_cs2"
+		},
+		{
+			"id": "2024_cs1",
+			"title": "GATE 2024 CS1",
+			"subtitle": "Computer Science & Information Technology",
+			"year": 2024,
+			"organizer": "IISc Bengaluru",
+			"total_questions": 65,
+			"total_marks": 100,
+			"duration_minutes": 180,
+			"folder": "2024_cs1"
+		},
+		{
+			"id": "2024_cs2",
+			"title": "GATE 2024 CS2",
+			"subtitle": "Computer Science & Information Technology (CS2)",
+			"year": 2024,
+			"organizer": "IISc Bengaluru",
+			"total_questions": 65,
+			"total_marks": 100,
+			"duration_minutes": 180,
+			"folder": "2024_cs2"
+		},
+		{
+			"id": "2023_cs",
+			"title": "GATE 2023 CS",
+			"subtitle": "Computer Science & Information Technology",
+			"year": 2023,
+			"organizer": "IIT Kanpur",
+			"total_questions": 65,
+			"total_marks": 100,
+			"duration_minutes": 180,
+			"folder": "2023_cs"
+		}
+	]
 }

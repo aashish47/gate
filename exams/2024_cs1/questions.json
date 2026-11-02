@@ -1,0 +1,1355 @@
+{
+  "metadata": {
+    "exam_name": "Graduate Aptitude Test in Engineering (GATE) 2024",
+    "paper_code": "CS1",
+    "paper_title": "Computer Science & Information Technology (CS1)",
+    "organizing_institute": "Indian Institute of Science, Bengaluru",
+    "session": 5,
+    "total_questions": 65,
+    "total_marks": 100,
+    "sections": [
+      {
+        "name": "General Aptitude (GA)",
+        "questions": "1-10",
+        "marks": 15
+      },
+      {
+        "name": "Computer Science & Information Technology (CS)",
+        "questions": "11-65",
+        "marks": 85
+      }
+    ],
+    "assets_directory": "assets/",
+    "source_pdf": "../../2024_CS1.pdf",
+    "version": "1.0",
+    "description": "GATE 2024 CS1 question bank. Cleaned text, structured options.",
+    "rendering": {
+      "math": "Use LaTeX delimiters for mathematical expressions where they improve clarity; use Unicode otherwise.",
+      "tables": "Tabular data uses structured JSON headers and rows; schematic layouts may use LaTeX arrays.",
+      "code": "Code and SQL snippets use fenced code blocks in question text and options.",
+      "figures": "Question figures are source-cropped in questions.json; image options use answer assets and assets_for_options."
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "MCQ",
+      "section": "General Aptitude",
+      "section_code": "GA",
+      "marks": 1,
+      "text": "If ‘→’ denotes increasing order of intensity, then the meaning of the words\n\n[dry → arid → parched] is analogous to [diet → fast → ________ ].\n\nWhich one of the given options is appropriate to fill the blank?",
+      "options": {
+        "A": "starve",
+        "B": "reject",
+        "C": "feast",
+        "D": "deny"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 1
+    },
+    {
+      "id": 2,
+      "type": "MCQ",
+      "section": "General Aptitude",
+      "section_code": "GA",
+      "marks": 1,
+      "text": "If two distinct non-zero real variables 𝑥 and 𝑦 are such that (𝑥 + 𝑦) is proportional 𝑥 to (𝑥 − 𝑦) then the value of 𝑦",
+      "options": {
+        "A": "depends on 𝑥𝑦",
+        "B": "depends only on 𝑥 and not on 𝑦",
+        "C": "depends only on 𝑦 and not on 𝑥",
+        "D": "is a constant"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 1
+    },
+    {
+      "id": 3,
+      "type": "MCQ",
+      "section": "General Aptitude",
+      "section_code": "GA",
+      "marks": 1,
+      "text": "Consider the following sample of numbers:\n\n9, 18, 11, 14, 15, 17, 10, 69, 11, 13\n\nThe median of the sample is",
+      "options": {
+        "A": "13.5",
+        "B": "14",
+        "C": "11",
+        "D": "18.7"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 2
+    },
+    {
+      "id": 4,
+      "type": "MCQ",
+      "section": "General Aptitude",
+      "section_code": "GA",
+      "marks": 1,
+      "text": "The number of coins of ₹1, ₹5, and ₹10 denominations that a person has are in the ratio 5:3:13. Of the total amount, the percentage of money in ₹5 coins is",
+      "options": {
+        "A": "21%",
+        "B": "2 14 7%",
+        "C": "10%",
+        "D": "30%"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 2
+    },
+    {
+      "id": 5,
+      "type": "MCQ",
+      "section": "General Aptitude",
+      "section_code": "GA",
+      "marks": 1,
+      "text": "For positive non-zero real variables 𝑝 and 𝑞, if\n\nlog (𝑝2 + 𝑞 2 ) = log 𝑝 + log 𝑞 + 2 log 3 ,\n\n𝑝4 +𝑞4 then, the value of is 𝑝2 𝑞 2",
+      "options": {
+        "A": "79",
+        "B": "81",
+        "C": "9",
+        "D": "83"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 3
+    },
+    {
+      "id": 6,
+      "type": "MCQ",
+      "section": "General Aptitude",
+      "section_code": "GA",
+      "marks": 2,
+      "text": "In the given text, the blanks are numbered (i)−(iv). Select the best match for all the blanks.\n\n(i) (ii) Steve was advised to keep his head before heading to bat; (iii) for, while he had a head batting, he could only do so with a cool head (iv) s his shoulders.",
+      "options": {
+        "A": "(i) down (ii) down (iii) on (iv) for",
+        "B": "(i) on (ii) down (iii) for (iv) on",
+        "C": "(i) down (ii) out (iii) for (iv) on",
+        "D": "(i) on (ii) out (iii) on (iv) for"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 4
+    },
+    {
+      "id": 7,
+      "type": "MCQ",
+      "section": "General Aptitude",
+      "section_code": "GA",
+      "marks": 2,
+      "text": "A rectangular paper sheet of dimensions 54 cm × 4 cm is taken. The two longer edges of the sheet are joined together to create a cylindrical tube. A cube whose surface area is equal to the area of the sheet is also taken.\n\nThen, the ratio of the volume of the cylindrical tube to the volume of the cube is",
+      "options": {
+        "A": "1/π",
+        "B": "2/π",
+        "C": "3/π",
+        "D": "4/π"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 5
+    },
+    {
+      "id": 8,
+      "type": "MCQ",
+      "section": "General Aptitude",
+      "section_code": "GA",
+      "marks": 2,
+      "text": "The pie chart shows the percentage contribution of different macronutrients to a typical 2,000 kcal diet. The typical energy density of these macronutrients is given in the table. What total mass of fat (all three types), in grams, does this person consume?",
+      "options": {
+        "A": "44.4",
+        "B": "77.8",
+        "C": "100",
+        "D": "3,600"
+      },
+      "tables": [
+        {
+          "id": "energy_density",
+          "caption": "Macronutrient energy density",
+          "headers": [
+            "Macronutrient",
+            "Energy density (kcal/g)"
+          ],
+          "rows": [
+            [
+              "Carbohydrates",
+              "4"
+            ],
+            [
+              "Proteins",
+              "4"
+            ],
+            [
+              "Unsaturated fat",
+              "9"
+            ],
+            [
+              "Saturated fat",
+              "9"
+            ],
+            [
+              "Trans fat",
+              "9"
+            ]
+          ]
+        }
+      ],
+      "has_figure": true,
+      "assets": [
+        "assets/q8_figure.png"
+      ],
+      "figure_description": "Pie chart and energy-density table for macronutrients.",
+      "note": null,
+      "source_page": 6
+    },
+    {
+      "id": 9,
+      "type": "MCQ",
+      "section": "General Aptitude",
+      "section_code": "GA",
+      "marks": 2,
+      "text": "A rectangular paper of 20 cm × 8 cm is folded 3 times. Each fold is made along the line of symmetry, which is perpendicular to its long edge. The perimeter of the final folded sheet (in cm) is",
+      "options": {
+        "A": "18",
+        "B": "24",
+        "C": "20",
+        "D": "21"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 7
+    },
+    {
+      "id": 10,
+      "type": "MCQ",
+      "section": "General Aptitude",
+      "section_code": "GA",
+      "marks": 2,
+      "text": "The least number of squares to be added in the figure to make AB a line of symmetry is",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "5",
+        "D": "7"
+      },
+      "tables": [],
+      "has_figure": true,
+      "assets": [
+        "assets/q10_figure.png"
+      ],
+      "figure_description": "Figure used to find the squares needed to make AB a line of symmetry.",
+      "note": null,
+      "source_page": 7
+    },
+    {
+      "id": 11,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Let 𝑓: ℝ → ℝ be a function such that 𝑓(𝑥) = max{𝑥, 𝑥 3 }, 𝑥 ∈ ℝ , where ℝ is the set of all real numbers. The set of all points where 𝑓(𝑥) is NOT differentiable is",
+      "options": {
+        "A": "{−1, 1, 2}",
+        "B": "{−2, −1, 1}",
+        "C": "{0, 1}",
+        "D": "{−1, 0, 1} 1 2 3"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 8
+    },
+    {
+      "id": 12,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "The product of all eigenvalues of the matrix [4 5 6] is 7 8 9",
+      "options": {
+        "A": "−1",
+        "B": "0",
+        "C": "1",
+        "D": "2"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 8
+    },
+    {
+      "id": 13,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Consider a system that uses 5 bits for representing signed integers in 2’s complement format. In this system, two integers 𝐴 and 𝐵 are represented as 𝐴=01010 and 𝐵=11010. Which one of the following operations will result in either an arithmetic overflow or an arithmetic underflow?",
+      "options": {
+        "A": "𝐴+𝐵",
+        "B": "𝐴−𝐵",
+        "C": "𝐵−𝐴",
+        "D": "2∗𝐵"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 9
+    },
+    {
+      "id": 14,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Consider a permutation sampled uniformly at random from the set of all permutations of {1, 2, 3, ⋯ , 𝑛} for some 𝑛 ≥ 4. Let 𝑋 be the event that 1 occurs before 2 in the permutation, and 𝑌 the event that 3 occurs before 4. Which one of the following statements is TRUE?",
+      "options": {
+        "A": "The events 𝑋 and 𝑌 are mutually exclusive",
+        "B": "The events 𝑋 and 𝑌 are independent",
+        "C": "Either event 𝑋 or 𝑌 must occur",
+        "D": "Event 𝑋 is more likely than event 𝑌"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 9
+    },
+    {
+      "id": 15,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Which one of the following statements is FALSE?\n\nIn the cycle stealing mode of DMA, one word of data is transferred between an I/O",
+      "options": {
+        "A": "device and main memory in a stolen cycle For bulk data transfer, the burst mode of DMA has a higher throughput than the",
+        "B": "cycle stealing mode Programmed I/O mechanism has a better CPU utilization than the interrupt driven",
+        "C": "I/O mechanism The CPU can start executing an interrupt service routine faster with vectored",
+        "D": "interrupts than with non-vectored interrupts"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 10
+    },
+    {
+      "id": 16,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "A user starts browsing a webpage hosted at a remote server. The browser opens a single TCP connection to fetch the entire webpage from the server. The webpage consists of a top-level index page with multiple embedded image objects. Assume that all caches (e.g., DNS cache, browser cache) are all initially empty. The following packets leave the user’s computer in some order.\n\n(i) HTTP GET request for the index page (ii) DNS request to resolve the web server’s name to its IP address (iii) HTTP GET request for an image object (iv) TCP SYN to open a connection to the web server\n\nWhich one of the following is the CORRECT chronological order (earliest in time to latest) of the packets leaving the computer ?",
+      "options": {
+        "A": "(iv), (ii), (iii), (i)",
+        "B": "(ii), (iv), (iii), (i)",
+        "C": "(ii), (iv), (i), (iii)",
+        "D": "(iv), (ii), (i), (iii)"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 11
+    },
+    {
+      "id": 17,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Given an integer array of size N, we want to check if the array is sorted (in either ascending or descending order). An algorithm solves this problem by making a single pass through the array and comparing each element of the array only with its adjacent elements. The worst-case time complexity of this algorithm is",
+      "options": {
+        "A": "both Ο(𝑁) and Ω(𝑁)",
+        "B": "Ο(𝑁) but not Ω(𝑁)",
+        "C": "Ω(𝑁) but not Ο(𝑁)",
+        "D": "neither Ο(𝑁) nor Ω(𝑁)"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 11
+    },
+    {
+      "id": 18,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Consider the following C program:\n\n```c\n#include <stdio.h>\n\nint main() {\n    int a = 6;\n    int b = 0;\n    while (a < 10) {\n        a = a / 12 + 1;\n        a += b;\n    }\n    printf(\"%d\", a);\n    return 0;\n}\n```\n\nWhich one of the following statements is correct?",
+      "options": {
+        "A": "The program prints 9 as output",
+        "B": "The program prints 10 as output",
+        "C": "The program gets stuck in an infinite loop",
+        "D": "The program prints 6 as output"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 12
+    },
+    {
+      "id": 19,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Consider the following C program:\n\n```c\n#include <stdio.h>\n\nvoid fX();\n\nint main() {\n    fX();\n    return 0;\n}\n\nvoid fX() {\n    char a;\n    if ((a = getchar()) != '\\n') {\n        fX();\n    }\n    if (a != '\\n') {\n        putchar(a);\n    }\n}\n```\n\nAssume the program's input is `1234` followed by a newline. Which one of the following statements is correct?",
+      "options": {
+        "A": "The program will not terminate",
+        "B": "The program will terminate with no output",
+        "C": "The program will terminate with 4321 as output",
+        "D": "The program will terminate with 1234 as output"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 13
+    },
+    {
+      "id": 20,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Let S be the specification: \"Instructors teach courses. Students register for courses. Courses are allocated classrooms. Instructors guide students.\" Which one of the following ER diagrams CORRECTLY represents S?",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 14
+    },
+    {
+      "id": 21,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "In a B+ tree, the requirement of at least half-full (50%) node occupancy is relaxed for which one of the following cases?",
+      "options": {
+        "A": "Only the root node",
+        "B": "All leaf nodes",
+        "C": "All internal nodes",
+        "D": "Only the leftmost leaf node"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 15
+    },
+    {
+      "id": 22,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Which of the following statements about a relation R in first normal form (1NF) is/are TRUE ?",
+      "options": {
+        "A": "R can have a multi-attribute key",
+        "B": "R cannot have a foreign key",
+        "C": "R cannot have a composite attribute",
+        "D": "R cannot have more than one candidate key"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 15
+    },
+    {
+      "id": 23,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Let 𝐿1 , 𝐿2 be two regular languages and 𝐿3 a language which is not regular. Which of the following statements is/are always TRUE?",
+      "options": {
+        "A": "𝐿1 = 𝐿2 if and only if 𝐿1 ∩ ̅̅̅ 𝐿2 = 𝜙",
+        "B": "𝐿1 ∪ 𝐿3 is not regular",
+        "C": "̅̅̅ 𝐿3 is not regular",
+        "D": "̅̅̅ 𝐿1 ∪ ̅̅̅ 𝐿2 is regular"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 16
+    },
+    {
+      "id": 24,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Which of the following statements about threads is/are TRUE?",
+      "options": {
+        "A": "Threads can only be implemented in kernel space",
+        "B": "Each thread has its own file descriptor table for open files",
+        "C": "All the threads belonging to a process share a common stack",
+        "D": "Threads belonging to a process are by default not protected from each other"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 16
+    },
+    {
+      "id": 25,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Which of the following process state transitions is/are NOT possible?",
+      "options": {
+        "A": "Running to Ready",
+        "B": "Waiting to Running",
+        "C": "Ready to Waiting",
+        "D": "Running to Terminated"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 17
+    },
+    {
+      "id": 26,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Which of the following is/are Bottom-Up Parser(s)?",
+      "options": {
+        "A": "Shift-reduce Parser",
+        "B": "Predictive Parser",
+        "C": "LL(1) Parser",
+        "D": "LR Parser"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 17
+    },
+    {
+      "id": 27,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Let 𝐴 and 𝐵 be two events in a probability space with 𝑃(𝐴) = 0.3, 𝑃(𝐵) = 0.5, and 𝑃(𝐴 ∩ 𝐵) = 0.1. Which of the following statements is/are TRUE?",
+      "options": {
+        "A": "The two events 𝐴 and 𝐵 are independent",
+        "B": "𝑃(𝐴 ∪ 𝐵) = 0.7",
+        "C": "𝑃(𝐴 ∩ 𝐵 𝑐 ) = 0.2, where 𝐵 𝑐 is the complement of the event 𝐵 𝑃(𝐴𝑐 ∩ 𝐵 𝑐 ) = 0.4, where 𝐴𝑐 and 𝐵 𝑐 are the complements of the events 𝐴 and 𝐵,",
+        "D": "respectively"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 18
+    },
+    {
+      "id": 28,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Consider the circuit shown below where the gates may have propagation delays. Assume that all signal transitions occur instantaneously and that wires have no delays. Which of the following statements about the circuit is/are CORRECT?",
+      "options": {
+        "A": "With no propagation delays, the output 𝒀 is always logic Zero",
+        "B": "With no propagation delays, the output 𝒀 is always logic One With propagation delays, the output 𝒀 can have a transient logic One after 𝑿",
+        "C": "transitions from logic Zero to logic One With propagation delays, the output 𝒀 can have a transient logic Zero after 𝑿",
+        "D": "transitions from logic One to logic Zero"
+      },
+      "tables": [],
+      "has_figure": true,
+      "assets": [
+        "assets/q28_figure.png"
+      ],
+      "figure_description": "Logic circuit used to analyze gate propagation delays.",
+      "note": null,
+      "source_page": 18
+    },
+    {
+      "id": 29,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "TCP client P successfully establishes a connection to TCP server Q. Let 𝑁𝑃 denote the sequence number in the SYN sent from P to Q. Let 𝑁𝑄 denote the acknowledgement number in the SYN ACK from Q to P. Which of the following statements is/are CORRECT?",
+      "options": {
+        "A": "The sequence number 𝑁𝑃 is chosen randomly by P",
+        "B": "The sequence number 𝑁𝑃 is always 0 for a new connection",
+        "C": "The acknowledgement number 𝑁𝑄 is equal to 𝑁𝑃",
+        "D": "The acknowledgement number 𝑁𝑄 is equal to 𝑁𝑃 + 1"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 19
+    },
+    {
+      "id": 30,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Consider a 5-stage pipelined processor with Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), and Register Writeback (WB) stages. Which of the following statements about forwarding is/are CORRECT?\n\nIn a pipelined execution, forwarding means the result from a source stage of an",
+      "options": {
+        "A": "earlier instruction is passed on to the destination stage of a later instruction In forwarding, data from the output of the MEM stage can be passed on to the",
+        "B": "input of the EX stage of the next instruction",
+        "C": "Forwarding cannot prevent all pipeline stalls Forwarding does not require any extra hardware to retrieve the data from the",
+        "D": "pipeline stages"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 19
+    },
+    {
+      "id": 31,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Which of the following fields is/are modified in the IP header of a packet going out of a network address translation (NAT) device from an internal network to an external network?",
+      "options": {
+        "A": "Source IP",
+        "B": "Destination IP",
+        "C": "Header Checksum",
+        "D": "Total Length"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 20
+    },
+    {
+      "id": 32,
+      "type": "NAT",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Let 𝐴 and 𝐵 be non-empty finite sets such that there exist one-to-one and onto functions (i) from 𝐴 to 𝐵 and (ii) from 𝐴 × 𝐴 to 𝐴 ∪ 𝐵. The number of possible values of |𝐴| is __________",
+      "options": null,
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 20
+    },
+    {
+      "id": 33,
+      "type": "NAT",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Consider the operator precedence and associativity rules for the integer arithmetic operators given in the table below.\n\nThe value of the expression 3 + 1 + 5 ∗ 2 / 7 + 2 − 4 − 7 − 6 / 2 as per the above rules is __________",
+      "options": null,
+      "tables": [
+        {
+          "id": "operator_precedence",
+          "caption": "Operator precedence and associativity",
+          "headers": [
+            "Operator",
+            "Precedence",
+            "Associativity"
+          ],
+          "rows": [
+            [
+              "+",
+              "Highest",
+              "Left"
+            ],
+            [
+              "−",
+              "High",
+              "Right"
+            ],
+            [
+              "∗",
+              "Medium",
+              "Right"
+            ],
+            [
+              "/",
+              "Low",
+              "Right"
+            ]
+          ]
+        }
+      ],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 20
+    },
+    {
+      "id": 34,
+      "type": "NAT",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "The number of spanning trees in a complete graph of 4 vertices labelled A, B, C, and D is _________",
+      "options": null,
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 21
+    },
+    {
+      "id": 35,
+      "type": "NAT",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 1,
+      "text": "Consider the following two relations, R(A,B) and S(A,C):\n\n𝑹 𝑺 𝑨 𝑩 𝑨 𝑪 10 20 10 90 20 30 30 45 30 40 40 80 30 50 50 95\n\nThe total number of tuples obtained by evaluating the following expression\n\n𝝈𝑩<𝑪 (𝑹 ⋈𝑹.𝑨=𝑺.𝑨 𝑺) is _________",
+      "options": null,
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 21
+    },
+    {
+      "id": 36,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "sends a file of size 106 bytes to R via this path by splitting the file into chunks of 103 bytes each. Node P sends these chunks one after the other without any wait time between the successive chunk transmissions. Assume that the size of extra headers added to these chunks is negligible, and that the chunk size is less than the MTU.\n\nEach of the links P—Q and Q—R has a bandwidth of 106 bits/sec, and negligible propagation latency. Router Q immediately transmits every packet it receives from P to R, with negligible processing and queueing delays. Router Q can simultaneously receive on link P—Q and transmit on link Q—R.\n\nAssume P starts transmitting the chunks at time 𝑡 = 0. Which one of the following options gives the time (in seconds, rounded off to 3 decimal places) at which R receives all the chunks of the file?",
+      "options": {
+        "A": "8.000",
+        "B": "8.008",
+        "C": "15.992",
+        "D": "16.000"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 22
+    },
+    {
+      "id": 37,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider the following syntax-directed definition (SDD).\n\n𝑆 → 𝐷𝐻𝑇𝑈 { 𝑆. 𝑣𝑎𝑙 = 𝐷. 𝑣𝑎𝑙 + 𝐻. 𝑣𝑎𝑙 + 𝑇. 𝑣𝑎𝑙 + 𝑈. 𝑣𝑎𝑙; }\n\n𝐷 → \"M\"𝐷1 { 𝐷. 𝑣𝑎𝑙 = 5 + 𝐷1 . 𝑣𝑎𝑙; }\n\n𝐷→𝜖 { 𝐷. 𝑣𝑎𝑙 = −5; }\n\n𝐻 → \"L\"𝐻1 { 𝐻. 𝑣𝑎𝑙 = 5 ∗ 10 + 𝐻1 . 𝑣𝑎𝑙; }\n\n𝐻→𝜖 { 𝐻. 𝑣𝑎𝑙 = −10; }\n\n𝑇 → \"C\"𝑇1 { 𝑇. 𝑣𝑎𝑙 = 5 ∗ 100 + 𝑇1 . 𝑣𝑎𝑙; }\n\n𝑇→𝜖 { 𝑇. 𝑣𝑎𝑙 = −5; }\n\n𝑈 → \"K\" { 𝑈. 𝑣𝑎𝑙 = 5; }\n\nGiven \"MMLK\" as the input, which one of the following options is the CORRECT value computed by the SDD (in the attribute 𝑆. 𝑣𝑎𝑙)?",
+      "options": {
+        "A": "45",
+        "B": "50",
+        "C": "55",
+        "D": "65"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 23
+    },
+    {
+      "id": 38,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider the following grammar 𝐺, with 𝑆 as the start symbol. The grammar 𝐺 has three incomplete productions denoted by (1), (2), and (3).\n\n𝑆 → 𝑑𝑎𝑇 | (1) 𝑇 → 𝑎𝑆 | 𝑏𝑇 | (2) 𝑅 → (3) | 𝜖\n\nThe set of terminals is {𝑎, 𝑏, 𝑐, 𝑑, 𝑓}. The FIRST and FOLLOW sets of the different non-terminals are as follows.\n\nFIRST(𝑆) = {𝑐, 𝑑, 𝑓}, FIRST(𝑇) = {𝑎, 𝑏, 𝜖}, FIRST(𝑅) = {𝑐, 𝜖}\n\nFOLLOW(𝑆) = FOLLOW(𝑇) = {𝑐, 𝑓, $}, FOLLOW(𝑅) = {𝑓}\n\nWhich one of the following options CORRECTLY fills in the incomplete productions?",
+      "options": {
+        "A": "(1) 𝑆 → 𝑅𝑓 (2) 𝑇 → 𝜖 (3) 𝑅 → 𝑐𝑇𝑅",
+        "B": "(1) 𝑆 → 𝑓𝑅 (2) 𝑇 → 𝜖 (3) 𝑅 → 𝑐𝑇𝑅",
+        "C": "(1) 𝑆 → 𝑓𝑅 (2) 𝑇 → 𝑐𝑇 (3) 𝑅 → 𝑐𝑅",
+        "D": "(1) 𝑆 → 𝑅𝑓 (2) 𝑇 → 𝑐𝑇 (3) 𝑅 → 𝑐𝑅"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 24
+    },
+    {
+      "id": 39,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider the following pseudo-code.\n\n𝐿1: 𝑡1 = −1 𝐿2: 𝑡2 = 0 𝐿3: 𝑡3 = 0 𝐿4: 𝑡4 = 4 ∗ 𝑡3 𝐿5: 𝑡5 = 4 ∗ 𝑡2 𝐿6: 𝑡6 = 𝑡5 ∗ 𝑀 𝐿7: 𝑡7 = 𝑡4 + 𝑡6 𝐿8: 𝑡8 = 𝑎[𝑡7] 𝐿9: if 𝑡8 <= 𝑚𝑎𝑥 goto 𝐿11 𝐿10: 𝑡1 = 𝑡8 𝐿11: 𝑡3 = 𝑡3 + 1 𝐿12: if 𝑡3 < 𝑀 goto 𝐿4 𝐿13: 𝑡2 = 𝑡2 + 1 𝐿14: if 𝑡2 < 𝑁 goto 𝐿3 𝐿15: 𝑚𝑎𝑥 = 𝑡1\n\nWhich one of the following options CORRECTLY specifies the number of basic blocks and the number of instructions in the largest basic block, respectively ?",
+      "options": {
+        "A": "6 and 6",
+        "B": "6 and 7",
+        "C": "7 and 7",
+        "D": "7 and 6"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 25
+    },
+    {
+      "id": 40,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider the following two threads T1 and T2 that update two shared variables a and b. Assume that initially a = b = 1. Though context switching between threads can happen at any time, each statement of T1 or T2 is executed atomically without interruption.\n\nT1 T2\n\na = a + 1; b = 2 * b; b = b + 1; a = 2 * a;\n\nWhich one of the following options lists all the possible combinations of values of a and b after both T1 and T2 finish execution?",
+      "options": {
+        "A": "(a = 4, b = 4); (a = 3, b = 3); (a = 4, b = 3)",
+        "B": "(a = 3, b = 4); (a = 4, b = 3); (a = 3, b = 3)",
+        "C": "(a = 4, b = 4); (a = 4, b = 3); (a = 3, b = 4)",
+        "D": "(a = 2, b = 2); (a = 2, b = 3); (a = 3, b = 4)"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 26
+    },
+    {
+      "id": 41,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "An array [82, 101, 90, 11, 111, 75, 33, 131, 44, 93] is heapified. Which one of the following options represents the first three elements in the heapified array?",
+      "options": {
+        "A": "82, 90, 101",
+        "B": "82, 11, 93",
+        "C": "131, 11, 93",
+        "D": "131, 111, 90"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 26
+    },
+    {
+      "id": 42,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider the following recurrence relation:\n\n𝑇(𝑛) = {√𝑛𝑇(√𝑛) + 𝑛 for 𝑛 ≥ 1, 1 for 𝑛 = 1. Which one of the following options is CORRECT?",
+      "options": {
+        "A": "𝑇(𝑛) = Θ(𝑛 log log 𝑛)",
+        "B": "𝑇(𝑛) = Θ(𝑛 log 𝑛)",
+        "C": "𝑇(𝑛) = Θ(𝑛2 log 𝑛)",
+        "D": "𝑇(𝑛) = Θ(𝑛2 log log 𝑛)"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 27
+    },
+    {
+      "id": 43,
+      "type": "MCQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider a binary min-heap containing 105 distinct elements. Let 𝑘 be the index (in the underlying array) of the maximum element stored in the heap. The number of possible values of 𝑘 is",
+      "options": {
+        "A": "53",
+        "B": "52",
+        "C": "27",
+        "D": "1"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 27
+    },
+    {
+      "id": 44,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "The symbol → indicates functional dependency in the context of a relational database. Which of the following options is/are TRUE?",
+      "options": {
+        "A": "(𝑋, 𝑌) → (𝑍, 𝑊) implies 𝑋 → (𝑍, 𝑊)",
+        "B": "(𝑋, 𝑌) → (𝑍, 𝑊) implies (𝑋, 𝑌) → 𝑍",
+        "C": "((𝑋, 𝑌) → 𝑍 and 𝑊 → 𝑌) implies (𝑋, 𝑊) → 𝑍",
+        "D": "(𝑋 → 𝑌 and 𝑌 → 𝑍) implies 𝑋 → 𝑍"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 28
+    },
+    {
+      "id": 45,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Let 𝐺 be a directed graph and 𝑇 a depth first search (DFS) spanning tree in 𝐺 that is rooted at a vertex 𝑣. Suppose 𝑇 is also a breadth first search (BFS) tree in 𝐺, rooted at 𝑣. Which of the following statements is/are TRUE for every such graph 𝐺 and tree 𝑇 ?",
+      "options": {
+        "A": "There are no back-edges in 𝐺 with respect to the tree 𝑇",
+        "B": "There are no cross-edges in 𝐺 with respect to the tree 𝑇",
+        "C": "There are no forward-edges in 𝐺 with respect to the tree 𝑇",
+        "D": "The only edges in 𝐺 are the edges in 𝑇"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 28
+    },
+    {
+      "id": 46,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider the following read-write schedule 𝑆 over three transactions 𝑇1 , 𝑇2 , and 𝑇3 , where the subscripts in the schedule indicate transaction IDs:\n\n𝑆: 𝑟1 (𝑧); 𝑤1 (𝑧); 𝑟2 (𝑥); 𝑟3 (𝑦); 𝑤3 (𝑦); 𝑟2 (𝑦); 𝑤2 (𝑥); 𝑤2 (𝑦);\n\nWhich of the following transaction schedules is/are conflict equivalent to 𝑆 ?",
+      "options": {
+        "A": "𝑇1 𝑇2 𝑇3",
+        "B": "𝑇1 𝑇3 𝑇2",
+        "C": "𝑇3 𝑇2 𝑇1",
+        "D": "𝑇3 𝑇1 𝑇2"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 29
+    },
+    {
+      "id": 47,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider a Boolean expression given by 𝐹(𝑋, 𝑌, 𝑍) = ∑(3,5,6,7).\n\nWhich of the following statements is/are CORRECT?",
+      "options": {
+        "A": "𝐹(𝑋, 𝑌, 𝑍) = Π(0,1,2,4)",
+        "B": "𝐹(𝑋, 𝑌, 𝑍) = 𝑋𝑌 + 𝑌𝑍 + 𝑋𝑍",
+        "C": "𝐹(𝑋, 𝑌, 𝑍) is independent of input 𝑌",
+        "D": "𝐹(𝑋, 𝑌, 𝑍) is independent of input 𝑋"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 29
+    },
+    {
+      "id": 48,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider the following C function:\n\n```c\nint f(int x, int y) {\n    for (int i = 0; i < y; i++) {\n        x = x + x + y;\n    }\n    return x;\n}\n```\n\nWhich of the following statements about the function is/are true?",
+      "options": {
+        "A": "If the inputs are x=20, y=10, then the return value is greater than 220",
+        "B": "If the inputs are x=20, y=20, then the return value is greater than 220",
+        "C": "If the inputs are x=20, y=10, then the return value is less than 210",
+        "D": "If the inputs are x=10, y=20, then the return value is greater than 220"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 30
+    },
+    {
+      "id": 49,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Let 𝐴 be any 𝑛 × 𝑚 matrix, where 𝑚 > 𝑛. Which of the following statements is/are TRUE about the system of linear equations 𝐴𝑥 = 0 ?",
+      "options": {
+        "A": "There exist at least 𝑚 − 𝑛 linearly independent solutions to this system There exist 𝑚 − 𝑛 linearly independent vectors such that every solution is a linear",
+        "B": "combination of these vectors",
+        "C": "There exists a non-zero solution in which at least 𝑚 − 𝑛 variables are 0",
+        "D": "There exists a solution in which at least 𝑛 variables are non-zero"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 30
+    },
+    {
+      "id": 50,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider the 5-state DFA 𝑀 accepting the language 𝐿(𝑀) ⊂ (0 + 1)∗ shown below. For any string 𝑤 ∈ (0 + 1)∗ let 𝑛0 (𝑤) be the number of 0′ 𝑠 in 𝑤 and 𝑛1 (𝑤) be the number of 1′𝑠 in 𝑤 .\n\nWhich of the following statements is/are FALSE?",
+      "options": {
+        "A": "States 2 and 4 are distinguishable in 𝑀",
+        "B": "States 3 and 4 are distinguishable in 𝑀",
+        "C": "States 2 and 5 are distinguishable in 𝑀",
+        "D": "Any string 𝑤 with 𝑛0 (𝑤) = 𝑛1 (𝑤) is in 𝐿(𝑀)"
+      },
+      "tables": [],
+      "has_figure": true,
+      "assets": [
+        "assets/q50_figure.png"
+      ],
+      "figure_description": "Five-state DFA state-transition diagram.",
+      "note": null,
+      "source_page": 31
+    },
+    {
+      "id": 51,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "The chromatic number of a graph is the minimum number of colours used in a proper colouring of the graph. Let 𝐺 be any graph with 𝑛 vertices and chromatic number 𝑘. Which of the following statements is/are always TRUE?",
+      "options": {
+        "A": "𝐺 contains a complete subgraph with 𝑘 vertices",
+        "B": "𝐺 contains an independent set of size at least 𝑛/𝑘",
+        "C": "𝐺 contains at least 𝑘(𝑘 − 1)/2 edges",
+        "D": "𝐺 contains a vertex of degree at least 𝑘"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 32
+    },
+    {
+      "id": 52,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider the operators ◊ and □ defined by 𝑎 ◊ 𝑏 = 𝑎 + 2𝑏, 𝑎□𝑏 = 𝑎𝑏, for positive integers. Which of the following statements is/are TRUE?",
+      "options": {
+        "A": "Operator ◊ obeys the associative law",
+        "B": "Operator □ obeys the associative law",
+        "C": "Operator ◊ over the operator □ obeys the distributive law",
+        "D": "Operator □ over the operator ◊ obeys the distributive law"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 32
+    },
+    {
+      "id": 53,
+      "type": "MSQ",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider two set-associative cache memory architectures: WBC, which uses the write back policy, and WTC, which uses the write through policy. Both of them use the LRU (Least Recently Used) block replacement policy. The cache memory is connected to the main memory. Which of the following statements is/are TRUE?",
+      "options": {
+        "A": "A read miss in WBC never evicts a dirty block A read miss in WTC never triggers a write back operation of a cache block to",
+        "B": "main memory",
+        "C": "A write hit in WBC can modify the value of the dirty bit of a cache block A write miss in WTC always writes the victim cache block to main memory",
+        "D": "before loading the missed block to the cache"
+      },
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 33
+    },
+    {
+      "id": 54,
+      "type": "NAT",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider a 512 GB hard disk with 32 storage surfaces. There are 4096 sectors per track and each sector holds 1024 bytes of data. The number of cylinders in the hard disk is _________",
+      "options": null,
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 33
+    },
+    {
+      "id": 55,
+      "type": "NAT",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "The baseline execution time of a program on a 2 GHz single core machine is 100 nanoseconds (ns). The code corresponding to 90% of the execution time can be fully parallelized. The overhead for using an additional core is 10 ns when running on a multicore system. Assume that all cores in the multicore system run their share of the parallelized code for an equal amount of time.\n\nThe number of cores that minimize the execution time of the program is ________",
+      "options": null,
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 33
+    },
+    {
+      "id": 56,
+      "type": "NAT",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "A given program has 25% load/store instructions. Suppose the ideal CPI (cycles per instruction) without any memory stalls is 2. The program exhibits 2% miss rate on instruction cache and 8% miss rate on data cache. The miss penalty is 100 cycles. The speedup (rounded off to two decimal places) achieved with a perfect cache (i.e., with NO data or instruction cache misses) is _________",
+      "options": null,
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 33
+    },
+    {
+      "id": 57,
+      "type": "NAT",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider the following code using `fork()` and `wait()`. Assume the code compiles and runs correctly, and all system calls succeed:\n\n```c\nint x = 3;\nwhile (x > 0) {\n    fork();\n    printf(\"hello\");\n    wait(NULL);\n    x--;\n}\n```\n\nHow many times is `printf` executed in total?",
+      "options": null,
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 34
+    },
+    {
+      "id": 58,
+      "type": "NAT",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider the entries shown below in the forwarding table of an IP router. Each entry consists of an IP prefix and the corresponding next hop router for packets whose destination IP address matches the prefix. The notation “/N” in a prefix indicates a subnet mask with the most significant N bits set to 1.\n\nThis router forwards 20 packets each to 5 hosts. The IP addresses of the hosts are 10.1.1.16, 10.1.1.72, 10.1.1.132, 10.1.1.191, and 10.1.1.205 . The number of packets forwarded via the next hop router R2 is _______",
+      "options": null,
+      "tables": [
+        {
+          "id": "forwarding_table",
+          "caption": "Router forwarding table",
+          "headers": [
+            "Prefix",
+            "Next hop router"
+          ],
+          "rows": [
+            [
+              "10.1.1.0/24",
+              "R1"
+            ],
+            [
+              "10.1.1.128/25",
+              "R2"
+            ],
+            [
+              "10.1.1.64/26",
+              "R3"
+            ],
+            [
+              "10.1.1.192/26",
+              "R4"
+            ]
+          ]
+        }
+      ],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 34
+    },
+    {
+      "id": 59,
+      "type": "NAT",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Let 𝐺 = (𝑉, Σ, 𝑆, 𝑃) be a context-free grammar in Chomsky Normal Form with Σ = {𝑎, 𝑏, 𝑐} and 𝑉 containing 10 variable symbols including the start symbol 𝑆. The string 𝑤 = 𝑎30 𝑏 30 𝑐 30 is derivable from 𝑆. The number of steps (application of rules) in the derivation 𝑆 →∗ 𝑤 is _________",
+      "options": null,
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 34
+    },
+    {
+      "id": 60,
+      "type": "NAT",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "The number of edges present in the forest generated by the DFS traversal of an undirected graph 𝐺 with 100 vertices is 40. The number of connected components in 𝐺 is _________",
+      "options": null,
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 35
+    },
+    {
+      "id": 61,
+      "type": "NAT",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider the following two regular expressions over the alphabet {0,1}:\n\n𝑟 = 0∗ + 1∗\n\n𝑠 = 01∗ + 10∗\n\nThe total number of strings of length less than or equal to 5, which are neither in 𝑟 nor in 𝑠, is _________",
+      "options": null,
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 35
+    },
+    {
+      "id": 62,
+      "type": "NAT",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider a memory management system that uses a page size of 2 KB. Assume that both the physical and virtual addresses start from 0. Assume that the pages 0, 1, 2, and 3 are stored in the page frames 1, 3, 2, and 0, respectively. The physical address (in decimal format) corresponding to the virtual address 2500 (in decimal format) is _________",
+      "options": null,
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 35
+    },
+    {
+      "id": 63,
+      "type": "NAT",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "A bag contains 10 red balls and 15 blue balls. Two balls are drawn randomly without replacement. Given that the first ball drawn is red, the probability (rounded off to 3 decimal places) that both balls drawn are red is _________",
+      "options": null,
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 35
+    },
+    {
+      "id": 64,
+      "type": "NAT",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider a digital logic circuit consisting of three 2-to-1 multiplexers M1, M2, and M3, as shown. X1 and X2 are inputs to M1, X3 and X4 are inputs to M2, and A, B, and C are the select lines of M1, M2, and M3, respectively. For X1 = 1, X2 = 1, X3 = 0, and X4 = 0, how many combinations of A, B, and C produce output Y = 1?",
+      "options": null,
+      "tables": [],
+      "has_figure": true,
+      "assets": [
+        "assets/q64_figure.png"
+      ],
+      "figure_description": "Circuit containing three 2-to-1 multiplexers.",
+      "note": null,
+      "source_page": 36
+    },
+    {
+      "id": 65,
+      "type": "NAT",
+      "section": "Computer Science & Information Technology",
+      "section_code": "CS",
+      "marks": 2,
+      "text": "Consider sending an IP datagram of size 1420 bytes (including 20 bytes of IP header) from a sender to a receiver over a path of two links with a router between them. The first link (sender to router) has an MTU (Maximum Transmission Unit) size of 542 bytes, while the second link (router to receiver) has an MTU size of 360 bytes. The number of fragments that would be delivered at the receiver is ________",
+      "options": null,
+      "tables": [],
+      "has_figure": false,
+      "assets": [],
+      "figure_description": null,
+      "note": null,
+      "source_page": 36
+    }
+  ]
+}
