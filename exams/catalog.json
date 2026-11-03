@@ -87,6 +87,28 @@
 			"total_marks": 100,
 			"duration_minutes": 180,
 			"folder": "2022_cs"
+		},
+		{
+			"id": "2021_cs1",
+			"title": "GATE 2021 CS1",
+			"subtitle": "Computer Science & Information Technology (CS1)",
+			"year": 2021,
+			"organizer": "IIT Bombay",
+			"total_questions": 65,
+			"total_marks": 100,
+			"duration_minutes": 180,
+			"folder": "2021_cs1"
+		},
+		{
+			"id": "2021_cs2",
+			"title": "GATE 2021 CS2",
+			"subtitle": "Computer Science & Information Technology (CS2)",
+			"year": 2021,
+			"organizer": "IIT Bombay",
+			"total_questions": 65,
+			"total_marks": 100,
+			"duration_minutes": 180,
+			"folder": "2021_cs2"
 		}
 	]
 }

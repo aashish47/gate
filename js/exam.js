@@ -419,18 +419,24 @@ function renderMath() {
 
 function formatText(str) {
   if (!str) return "";
-  let s = escapeHtml(str);
-  s = s.replace(/```(\w*)\n([\s\S]*?)```/g, (_, lang, code) => {
-    return `<pre><code class="language-${lang}">${code.trim()}</code></pre>`;
-  });
+  const preserved = [];
+  const preserve = (html) => {
+    const marker = `\u0000${preserved.length}\u0000`;
+    preserved.push(html);
+    return marker;
+  };
+  let s = escapeHtml(str).replace(
+    /```([\w+-]*)[ \t]*\r?\n([\s\S]*?)```/g,
+    (_, lang, code) => {
+      const className = lang ? ` class="language-${lang}"` : "";
+      const source = code.replace(/\r?\n$/, "");
+      return preserve(`<pre><code${className}>${source}</code></pre>`);
+    }
+  );
+  s = s.replace(/(\$\$|\$)[\s\S]*?\1/g, (math) => preserve(math));
   s = s.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
-  s = s
-    .split(/(<pre>[\s\S]*?<\/pre>)/)
-    .map((part) =>
-      part.startsWith("<pre>") ? part : part.replace(/\n/g, "<br>")
-    )
-    .join("");
-  return s;
+  s = s.replace(/\r?\n/g, "<br>");
+  return s.replace(/\u0000(\d+)\u0000/g, (_, index) => preserved[index]);
 }
 
 function escapeHtml(str) {
@@ -472,13 +478,16 @@ function evaluateOne(qid) {
   }
 
   if (q.type === "MCQ") {
-    const correct = key.correct[0];
-    if (user === correct)
+    if (key.correct.includes(user))
       return { status: "correct", message: `Correct. +${marks}`, marks };
     return {
       status: "wrong",
-      message: `Incorrect. Correct option: <strong>${correct}</strong>${
-        state.mode === "exam" || state.reviewMode ? ` · −${neg}` : ""
+      message: `Incorrect. Correct option${
+        key.correct.length > 1 ? "s" : ""
+      }: <strong>${key.correct.join(", ")}</strong>${
+        state.mode === "exam" || state.reviewMode
+          ? ` · −${neg.toFixed(2)}`
+          : ""
       }`,
       marks: -neg,
     };
@@ -501,15 +510,22 @@ function evaluateOne(qid) {
 
   const num = parseFloat(user);
   const range = key.range;
-  if (!isNaN(num) && range && num >= range.min && num <= range.max) {
+  const ranges = key.ranges || (range ? [range] : []);
+  if (
+    !isNaN(num) &&
+    ranges.some((accepted) => num >= accepted.min && num <= accepted.max)
+  ) {
     return { status: "correct", message: `Correct. +${marks}`, marks };
   }
   if (String(user) === String(key.correct)) {
     return { status: "correct", message: `Correct. +${marks}`, marks };
   }
+  const acceptedRanges = ranges
+    .map((accepted) => `${accepted.min} – ${accepted.max}`)
+    .join(" or ");
   return {
     status: "wrong",
-    message: `Incorrect. Accepted range: ${range?.min} – ${range?.max}`,
+    message: `Incorrect. Accepted range: ${acceptedRanges}`,
     marks: 0,
   };
 }
